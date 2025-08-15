@@ -92,7 +92,7 @@ LICENSE  (MIT)
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 * **DataStore not saving in Studio?** Ensure **Enable Studio Access to API Services** is **ON**. Publishing and testing in a live server is more reliable.
 * **Sounds don’t play?** Use valid `rbxassetid://` IDs that are public/owned; preview in Toolbox/Asset Manager.
