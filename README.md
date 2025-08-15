@@ -5,7 +5,7 @@ A drop-in Roblox score system: **secure server-side point grants (1–100)**, **
 
 ---
 
-## ✨ Features
+## Features
 
 * Server-authoritative random points (+**1–100** per click)
 * **Save/Load** with DataStore (retry + backoff)
@@ -19,7 +19,7 @@ A drop-in Roblox score system: **secure server-side point grants (1–100)**, **
 
 ---
 
-## 📂 Structure
+## Structure
 
 ```
 src/
@@ -34,7 +34,7 @@ LICENSE  (MIT)
 
 ---
 
-## 🚀 Setup (Roblox Studio)
+## Setup (Roblox Studio)
 
 1. **Enable DataStore access**
    Home → **Game Settings** → **Security** → turn **Enable Studio Access to API Services** **ON** → Save.
@@ -64,7 +64,7 @@ LICENSE  (MIT)
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 **Server (ScoreServer.lua)**
 
@@ -84,7 +84,7 @@ LICENSE  (MIT)
 
 ---
 
-## 🧠 How it works
+## How it works
 
 * **Server-authoritative**: client only requests; server computes rewards (base, streak, crit), saves via `UpdateAsync`, mirrors to leaderstats, and notifies client with `PointsGranted`.
 * **Persistence**: server loads on join; saves on leave/server close (with retries).
@@ -101,7 +101,7 @@ LICENSE  (MIT)
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 * Persist client settings (sound/reduce-motion)
 * Global leaderboard (OrderedDataStore)
@@ -110,12 +110,12 @@ LICENSE  (MIT)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 PRs welcome. Use Conventional Commits (e.g., `feat: …`, `fix: …`, `docs: …`).
 
 ---
 
-## 📜 License
+## License
 
 MIT — see [LICENSE](LICENSE).
