@@ -1,0 +1,22 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Archives & temp
+*.zip
+*.rar
+*.7z
+*.tmp
+
+# Node/tools (only if you add scripts later)
+node_modules/
+
+# Optional: build/output folders from tools like Rojo
+out/
+.tools/
